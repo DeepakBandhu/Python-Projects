@@ -1,13 +1,11 @@
-class Bird:
+class Person:
+    def __init__(self, name, age, height):
+        self.name = name   
+        self._age = age    
+        self.__height = height 
 
-    def __init__(self):
-        self.__liftOff()
+p1 = Person("Deepak", 21, 190.5)
 
-    def fly(self):
-        print('flying')
-
-    def __liftOff(self):
-        print('The bird is')
-
-bluebird = Bird()
-bluebird.fly()
+print(p1.name)   
+print(p1._age)   
+print(p1.__height) 
