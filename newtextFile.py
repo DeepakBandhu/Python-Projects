@@ -10,19 +10,17 @@ canvas1.pack()
 entry1 = tk.Entry (root) 
 canvas1.create_window(200, 140, window=entry1)
 
-f = open('userEntry.html','w')
-
-entry = input("enter text: ")
-
-message = "<html> <head></head> <body> <h1><p> {} </p></h1> </body> </html>".format(entry)
-
-f.write(message)
-f.close()
-
-    
-button1 = tk.Button(text='Enter your text: ',)
+button1 = tk.Button(text='Enter your text: ', command=lambda:openInBrowser())
 canvas1.create_window(200, 180, window=button1)
-webbrowser.open_new_tab('userEntry.html')
+
+def openInBrowser():
+    f = open('userEntry.html','w')
+    text1 = entry1.get()
+    message = "<html> <head></head> <body> <h1><p> {} </p></h1> </body> </html>".format(text1)
+    f.write(message)
+    f.close()
+    webbrowser.open('userEntry.html')
+
 
 
 
