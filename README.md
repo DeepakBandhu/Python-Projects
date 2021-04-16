@@ -15,5 +15,5 @@ This projects enables the user to type into a gui text box that, when submitted,
 <h3>Mean or Nice</h3>
 This project is interacted with through shell and it is a quick game the user can play by entering the specified text into the shell, the game is also equipped with a exit option if the user is done, or a replayable option it the user would like to go again.
 
-
+<br></br>
 There are many more Python skills utilized in the repository, these were just a few of the projects that are showcased.
