@@ -5,7 +5,7 @@ This repository contains my Python Projects from the Tech Academy Course.
 <h1> Projects:</h1>
 
 <h3>File Copy</h3>
-This project allows the user to seach for files in a certain directory and transfer the files into another, all while being able save the the files that have been moved in the database.
+This project allows the user to search for files in a certain directory and transfer the files into another, all while being able to save the files that have been moved in the database.
   
   
 <h3>2papgeFile</h3>
